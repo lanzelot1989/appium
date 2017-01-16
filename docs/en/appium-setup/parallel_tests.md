@@ -24,7 +24,7 @@ If you are using chromedriver or selendroid, set a different port for each serve
 
 ### Parallel iOS Tests
 
-Unfortunately, running local parallel iOS tests isn't currently possible. Unlike Android, only one version of the iOS simulator can be launched at a time, making it run multiple tests at once.
+-Unfortunately, running local parallel iOS tests isn't currently possible. Unlike Android, only one version of the iOS simulator can be launched at a time, making it run multiple tests at once.-
 
 If you do want to run parallel iOS tests, you need to use Sauce. Simply upload your Appium test to Sauce, and it can run as many parallel iOS or Android tests as your account allows. See more about running your tests on Sauce [here](https://docs.saucelabs.com/tutorials/appium/).
 
